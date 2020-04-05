@@ -1,0 +1,11 @@
+html {
+  background: url("https://cdn.pixabay.com/photo/2012/02/28/15/39/butterfly-18355_1280.jpg")
+    no-repeat center center fixed;
+  /* filter: grayscale(100%); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color: grey;
+}
