@@ -1,4 +1,4 @@
-html {
+#landing {
   background: url("https://cdn.pixabay.com/photo/2015/04/20/13/34/beach-731414_1280.jpg")
     no-repeat center center fixed;
   /* filter: grayscale(100%); */
@@ -6,6 +6,19 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
 
-  background-color: grey;
+  /* background-color: grey; */
+}
+
+.logo {
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 15px;
+  font-size: 65px;
+  text-align: center;
+}
+
+#logoBox {
+  width: 500px;
+  height: 200px;
 }
