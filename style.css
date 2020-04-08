@@ -7,8 +7,14 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scroll: touch;
 
   /* background-color: grey; */
+}
+
+.uk-container-large {
+  max-width: none;
 }
 
 .logo {
@@ -26,9 +32,22 @@
 
 .grad-overlay {
   width: 90%;
+}
 
+#projects {
+  top: 150px;
+}
+
+#uk-overlay {
+  margin: 50px;
 }
 
 .uk-grid-match {
   margin: 0;
+  padding-left: 0;
+}
+
+.uk-card {
+  border: 5px solid white;
+  border-radius: 25px;
 }
