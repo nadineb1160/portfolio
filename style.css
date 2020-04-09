@@ -1,3 +1,4 @@
+/* Landing page */
 #landing {
   background: url("https://cdn.pixabay.com/photo/2015/04/20/13/34/beach-731414_1280.jpg")
     no-repeat center center fixed;
@@ -9,14 +10,14 @@
   height: 100vh;
   overflow: auto;
   -webkit-overflow-scroll: touch;
-
-  /* background-color: grey; */
 }
 
+/* Main Container */
 .uk-container-large {
   max-width: none;
 }
 
+/* Center Large Logo */
 .logo {
   font-family: 'Overpass', sans-serif;
   margin: 15px;
@@ -24,28 +25,31 @@
   text-align: center;
 }
 
+/* Logo Box */
 #logoBox {
   width: 500px;
   height: 250px;
 }
 
+/* Logo Navbar */
 #name {
   font-family: 'Overpass', sans-serif;
   color: black;
   font-size: larger;
 }
 
-
+/* Overlay on bio page */
 .grad-overlay {
   width: 90%;
 }
 
-#projects {
+/* projects */
+#projects, #bio {
   top: 150px;
 }
 
 #uk-overlay {
-  margin: 50px;
+  margin: 80px 20px 40px 20px;
 }
 
 .uk-grid-match {
