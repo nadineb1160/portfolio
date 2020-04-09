@@ -17,6 +17,10 @@
   max-width: none;
 }
 
+.uk-height-large {
+  margin-top: 70px;
+}
+
 /* Center Large Logo */
 .logo {
   font-family: 'Overpass', sans-serif;
@@ -38,19 +42,15 @@
   font-size: larger;
 }
 
-/* Overlay on bio page */
-.grad-overlay {
-  width: 90%;
-}
-
 /* projects */
 #projects, #bio {
   top: 150px;
 }
 
-#uk-overlay {
-  margin: 80px 20px 40px 20px;
-}
+/* #uk-overlay {
+  margin: 70px 20px 40px 20px;
+  width: 90%;
+} */
 
 .uk-grid-match {
   margin: 0;
