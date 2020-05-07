@@ -57,7 +57,7 @@
   padding-left: 0;
 }
 
-.uk-card, #grad {
-  border: 5px solid white;
-  border-radius: 25px;
+.uk-card, #grad, .rounded {
+  /* border: 5px solid white; */
+  border-radius: 15px;
 }
