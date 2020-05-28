@@ -6,7 +6,6 @@ import Experience from "../../pages/Experience";
 import Contact from "../../pages/Contact";
 import Navbar from "../Navbar";
 import LandingContainer from "../LandingContainer";
-import Logo from "../Logo";
 
 import {
     BrowserRouter,
