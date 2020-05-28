@@ -21,8 +21,14 @@ const projects = {
 
 const router = Router();
 
-router.route("/").get(projects.getAll).post(projects.create);
-router.route("/:id").get(projects.getOne).put(projects.update).delete(projects.delete);
+router.route("/")
+    .get(projects.getAll)
+    .post(projects.create);
+
+router.route("/:id")
+    .get(projects.getOne)
+    .put(projects.update)
+    .delete(projects.delete);
 
 
 module.exports = router;

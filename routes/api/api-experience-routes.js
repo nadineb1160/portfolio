@@ -21,8 +21,13 @@ const experience = {
 
 const router = Router();
 
-router.route("/").get(experience.getAll).post(experience.create);
-router.route("/:id").get(experience.getOne).put(experience.update).delete(experience.delete);
+router.route("/")
+    .get(experience.getAll)
+    .post(experience.create);
+
+router.route("/:id")
+    .get(experience.getOne).put(experience.update)
+    .delete(experience.delete);
 
 
 module.exports = router;
