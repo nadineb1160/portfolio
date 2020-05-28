@@ -2,7 +2,7 @@ import React from "react";
 
 function LandingContainer({children}) {
     return (
-        <div class="uk-container uk-container-large" id="landing">
+        <div className="uk-container uk-container-large" id="landing">
             {children}
         </div>
     )
