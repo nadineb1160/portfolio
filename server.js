@@ -1,5 +1,6 @@
 // Dependencies
 const express = require("express");
+const logger = require("morgan");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 
@@ -9,6 +10,8 @@ const db = require("./models");
 // Set up the Express App
 var app = express();
 var PORT = process.env.PORT || 8080;
+
+app.use(logger("dev"));
 
 // Static Directory
 app.use(express.static("public"));
@@ -21,9 +24,9 @@ app.use(express.json());
 // Routes
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfolioDB", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfoliodb", { useNewUrlParser: true });
 
 app.listen(PORT, function () {
-    console.log("Server listening at localhost:" + PORT);
+    console.log(`Server listening at localhost: ${PORT}`);
 });
 
