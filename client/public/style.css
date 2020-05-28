@@ -1,0 +1,63 @@
+/* Landing page */
+#landing {
+  background: url("https://cdn.pixabay.com/photo/2015/04/20/13/34/beach-731414_1280.jpg")
+    no-repeat center center fixed;
+  /* filter: grayscale(100%); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scroll: touch;
+}
+
+/* Main Container */
+.uk-container-large {
+  max-width: none;
+}
+
+.uk-height-large {
+  margin-top: 70px;
+}
+
+/* Center Large Logo */
+.logo {
+  font-family: 'Overpass', sans-serif;
+  margin: 15px;
+  font-size: 65px;
+  text-align: center;
+}
+
+/* Logo Box */
+#logoBox {
+  width: 500px;
+  height: 250px;
+}
+
+/* Logo Navbar */
+#name {
+  font-family: 'Overpass', sans-serif;
+  color: black;
+  font-size: larger;
+}
+
+/* projects */
+#projects, #bio {
+  top: 150px;
+}
+
+/* #uk-overlay {
+  margin: 70px 20px 40px 20px;
+  width: 90%;
+} */
+
+.uk-grid-match {
+  margin: 0;
+  padding-left: 0;
+}
+
+.uk-card, #grad, .rounded {
+  /* border: 5px solid white; */
+  border-radius: 15px;
+}
