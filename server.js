@@ -8,8 +8,8 @@ const routes = require("./routes");
 const db = require("./models");
 
 // Set up the Express App
-var app = express();
-var PORT = process.env.PORT || 8080;
+const app = express();
+var PORT = process.env.PORT || 3001;
 
 app.use(logger("dev"));
 
