@@ -7,16 +7,20 @@ const Portfolio = () => {
 
     useEffect(() => {
         // Get all portfolio
-        // API.getProjects().then((projects) => {
-        //     console.log(projects)
+        API.getProjects()
+        .then((projects) => {
+            console.log(projects.data)
 
-        //     // setDisplayCards();
-        // })
+            setPortfolioCards(projects.data);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
     }, [])
 
     return (
         <div className="uk-height-large" id="projects">
-            {/* <PortfolioContainer/> */}
+            <PortfolioContainer cards={portfolioCards} />
         </div>
     );
 }
