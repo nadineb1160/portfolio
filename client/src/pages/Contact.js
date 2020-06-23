@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Contact = () => {
     return (
         <div className="uk-container">
@@ -8,7 +9,7 @@ const Contact = () => {
                 <h2 className="">Please reach out to:</h2>
 
                 {/* <!-- Picture --> */}
-                <img className="uk-border-pill uk-align-center" src="../Images/college_grad.JPG" width="200" height="200" alt="Border circle"/>
+                <img className="uk-border-pill uk-align-center" src="./Images/college_grad.JPG" width="200" height="200" alt="Border circle"/>
 
                 {/* <!-- Name --> */}
                 <h3>Nadine Bundschuh</h3>
@@ -24,7 +25,7 @@ const Contact = () => {
 
                 {/* <!-- Resume --> */}
                 <p><a href="https://drive.google.com/file/d/1buCslkiUuUJ33JCrpAbjrPUb1IpvsxEg/view?usp=sharing"
-                        target="_blank"><span uk-icon="file-text"></span> Resume</a></p>
+                    target="_blank" rel="noopener noreferrer"><span uk-icon="file-text"></span> Resume</a></p>
 
             </div>
 
