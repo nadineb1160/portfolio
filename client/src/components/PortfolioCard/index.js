@@ -5,7 +5,7 @@ function PortfolioCard({ card }) {
         <div className="overlay-content">
             <div className="uk-card uk-card-default uk-card-small uk-card-hover uk-card-body">
                 <h3 className="uk-card-title">{card.title}</h3>
-                <img src={card.image} className="rounded" />
+                <img src={card.image} alt="grad 2018" className="rounded" />
                 <p>{card.description}</p>
                 <hr />
                 <p><span>Technologies Used: </span>{card.technologies}</p>
