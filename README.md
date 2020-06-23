@@ -1,10 +1,10 @@
-# My Portfolio
+# Portfolio
 
-This is the start of my professional portfolio.
+This is my professional portfolio powered by mongoDB and UI Kit.
 
 ## Deployed Link
 
-https://nadineb1160.github.io/portfolio/
+https://portfolio-nb.herokuapp.com/
 
 #
 
