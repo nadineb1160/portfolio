@@ -1,5 +1,4 @@
 import React from 'react';
-import image from "../Images/college_grad.JPG"
 
 const About = () => {
     return (
@@ -13,7 +12,7 @@ const About = () => {
                             <div className="overlay-content">
 
                                 <img className="uk-align-left uk-margin-remove-adjacent" id="grad"
-                                    src={image} alt="Graduation Photo"/>
+                                    src="./Images/college_grad.JPG" alt="Graduation"/>
                                 {/* <!-- My Bio --> */}
                                 <p>
                                     My name is Nadine Bundschuh and I am a recent graduate of the University of Michigan
@@ -37,9 +36,9 @@ const About = () => {
                                 </p>
 
                                 <p>
-                                    Previous Languages: C++, Python
+                                    Languages: HTML, CSS, JavaScript, Python, C++
                                     <br/>
-                                    New Languages: HTML, CSS, JavaScript
+                                    Technical Skills: AJAX, API, Authentication, Bootstrap, Context API, Declarative Programming, ES6, Express.js, Firebase, Git, GitHub, Heroku, IndexDB, JavaScript, jQuery, JSON, JSX, Mongo DB, Mongoose ODM, MySQL, Node.js, Object-Oriented Programming (OOP), ORM, Postman, React, Rest API, Sequelize, SQL, Tailwind CSS, Testing
                                 </p>
 
                             </div>
