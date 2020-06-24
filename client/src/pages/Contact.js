@@ -24,9 +24,8 @@ const Contact = () => {
                 <p><a href="https://www.linkedin.com/in/nadine-bundschuh-731233b9/"><span uk-icon="linkedin"></span> Linkedin</a></p>
 
                 {/* <!-- Resume --> */}
-                <p><a href="https://drive.google.com/file/d/1buCslkiUuUJ33JCrpAbjrPUb1IpvsxEg/view?usp=sharing"
+                <p><a href="https://drive.google.com/file/d/1sLedD_iq1OutxhALJdXrbXQ_-MFuL0hf/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer"><span uk-icon="file-text"></span> Resume</a></p>
-
             </div>
 
         </div>
