@@ -24,7 +24,7 @@ app.use(express.json());
 // Routes
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfoliodb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfoliodb", { useNewUrlParser: true, useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 app.listen(PORT, function () {
     console.log(`Server listening at localhost: ${PORT}`);
