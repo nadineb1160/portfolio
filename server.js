@@ -16,6 +16,10 @@ app.use(logger("dev"));
 // Static Directory
 app.use(express.static("public"));
 
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"));
+}
 
 // Parse Request Body as JSON
 app.use(express.urlencoded({ extended: true }));
