@@ -25,14 +25,12 @@ const About = () => {
 
                                     <br/>
 
-                                    I have taken classNamees in the fields of Anthropology,
+                                    I have taken classes in the fields of Anthropology,
                                     Artificial Intelligence, Computer Science, Economics, Entrepreneurship, Linguistics,
                                     Mathematics,
                                     Philosophy,
-                                    Psychology, Sociology, Statistics and more. Currently, I'm working to advance my
-                                    programming skills
-                                    through UC
-                                    Berkeley's Full-Stack Development Bootcamp.
+                                    Psychology, Sociology, Statistics and more. I've recently advance my
+                                    programming skills through UC Berkeley's Full-Stack Development Bootcamp.
                                 </p>
 
                                 <p>
