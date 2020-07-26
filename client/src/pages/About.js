@@ -12,31 +12,24 @@ const About = () => {
                             <div className="overlay-content">
 
                                 <img className="uk-align-left uk-margin-remove-adjacent" id="grad"
-                                    src="./Images/college_grad.JPG" alt="Graduation"/>
+                                    src="./Images/college_grad.JPG" alt="Graduation" />
                                 {/* <!-- My Bio --> */}
                                 <p>
                                     My name is Nadine Bundschuh and I am a recent graduate of the University of Michigan
-                                    with a Bachelor
-                                    of
-                                    Science in Cognitive Science and a minor in Computer Science. I was a liberal arts
-                                    student with a
-                                    wide
-                                    background of skills, coursework and experiences.
-
+                                    with a Bachelor of Science in Cognitive Science and a minor in Computer Science. I have a liberal arts
+                                    background with a wide variety of skills, coursework and experiences.
                                     <br/>
-
-                                    I have taken classes in the fields of Anthropology,
-                                    Artificial Intelligence, Computer Science, Economics, Entrepreneurship, Linguistics,
-                                    Mathematics,
-                                    Philosophy,
-                                    Psychology, Sociology, Statistics and more. I've recently advance my
-                                    programming skills through UC Berkeley's Full-Stack Development Bootcamp.
+                                    <br/>
+                                    I have taken classes in the fields of Anthropology, Artificial Intelligence, Computer Science, Economics, 
+                                    Entrepreneurship, Linguistics, Mathematics, Philosophy, Psychology, Sociology, Statistics and more. 
+                                    I've recently advanced my programming skills through UC Berkeley's Full-Stack Bootcamp.
                                 </p>
 
                                 <p>
-                                    Languages: HTML, CSS, JavaScript, Python, C++
+                                    <strong>Languages:</strong> HTML, CSS, JavaScript, Python, C++, Netlogo
                                     <br/>
-                                    Technical Skills: AJAX, API, Authentication, Bootstrap, Context API, Declarative Programming, ES6, Express.js, Firebase, Git, GitHub, Heroku, IndexDB, JavaScript, jQuery, JSON, JSX, Mongo DB, Mongoose ODM, MySQL, Node.js, Object-Oriented Programming (OOP), ORM, Postman, React, Rest API, Sequelize, SQL, Tailwind CSS, Testing
+                                    <br/>
+                                    <strong>Technical Skills:</strong> AJAX, API, Authentication, Bootstrap, Context API, Declarative Programming, ES6, Express.js, Firebase, Git, GitHub, Heroku, IndexDB, JavaScript, jQuery, JSON, JSX, Mongo DB, Mongoose ODM, MySQL, Node.js, Object-Oriented Programming (OOP), ORM, Postman, React, Rest API, Sequelize, SQL, Tailwind CSS, Testing
                                 </p>
 
                             </div>
@@ -49,7 +42,7 @@ const About = () => {
     );
 
 
-    
+
 }
 
 export default About;
