@@ -26,10 +26,10 @@ const About = () => {
                                 </p>
 
                                 <p>
-                                    <strong>Languages:</strong> HTML, CSS, JavaScript, Python, C++, Netlogo
+                                    <strong className="blue">Languages:</strong> HTML, CSS, JavaScript, Python, C++, Netlogo
                                     <br/>
                                     <br/>
-                                    <strong>Technical Skills:</strong> AJAX, API, Authentication, Bootstrap, Context API, Declarative Programming, ES6, Express.js, Firebase, Git, GitHub, Heroku, IndexDB, JavaScript, jQuery, JSON, JSX, Mongo DB, Mongoose ODM, MySQL, Node.js, Object-Oriented Programming (OOP), ORM, Postman, React, Rest API, Sequelize, SQL, Tailwind CSS, Testing
+                                    <strong className="blue">Technical Skills:</strong> AJAX, API, Authentication, Bootstrap, Context API, Declarative Programming, ES6, Express.js, Firebase, Git, GitHub, Heroku, IndexDB, JavaScript, jQuery, JSON, JSX, Mongo DB, Mongoose ODM, MySQL, Node.js, Object-Oriented Programming (OOP), ORM, Postman, React, Rest API, Sequelize, SQL, Tailwind CSS, Testing
                                 </p>
 
                             </div>
