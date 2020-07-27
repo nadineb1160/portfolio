@@ -6,13 +6,13 @@ const Contact = () => {
             <div className="uk-overlay uk-overlay-default uk-position-center uk-card" id="uk-overlay">
 
                 {/* <!-- My Bio --> */}
-                <h2 className="">Please reach out to:</h2>
+                <h2 className="blue">Please reach out to:</h2>
 
                 {/* <!-- Picture --> */}
                 <img className="uk-border-pill uk-align-center" src="./Images/college_grad.JPG" width="200" height="200" alt="Border circle"/>
 
                 {/* <!-- Name --> */}
-                <h3>Nadine Bundschuh</h3>
+                <h3 className="blue">Nadine Bundschuh</h3>
 
                 {/* <!-- Email - malito --> */}
                 <p><a href="mailto:nadineb@umich.edu" target="_top"><span uk-icon="mail"></span> nadineb@umich.edu</a></p>
