@@ -6,7 +6,7 @@ function Logo() {
 
         // <!-- Nadine Bundschuh Logo -->
         <div className="uk-position-center uk-overlay-default uk-card" id="logoBox">
-            <p className="logo">Nadine<br/>Bundschuh</p>
+            <p className="logo">Nadine Bundschuh</p>
         </div>
     )
 }
