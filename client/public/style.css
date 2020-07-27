@@ -23,34 +23,39 @@
 
 /* Center Large Logo */
 .logo {
-  font-family: 'Overpass', sans-serif;
-  margin: 15px;
-  font-size: 65px;
+  font-family: 'Dancing Script', cursive;
+  color: #313A51;
+  margin: 30px;
+  font-size: 75px;
   text-align: center;
 }
 
-/* Logo Box */
-#logoBox {
-  width: 500px;
-  height: 250px;
+.blue {
+  color: #313A51;
+}
+
+.light-blue {
+  color: #7589a2;
 }
 
 /* Logo Navbar */
 #name {
   font-family: 'Overpass', sans-serif;
-  color: black;
+  /* color: rgba(0, 0, 0, 0.5); */
+  color: #313A51;
   font-size: larger;
+}
+
+#about, #portfolio, #experience, #contact {
+  font-family: 'Francois One', sans-serif;
+  color: #7589a2;
+  font-size: large;
 }
 
 /* projects */
 #projects, #bio {
   top: 150px;
 }
-
-/* #uk-overlay {
-  margin: 70px 20px 40px 20px;
-  width: 90%;
-} */
 
 .uk-grid-match {
   margin: 0;
