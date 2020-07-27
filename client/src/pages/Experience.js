@@ -20,7 +20,7 @@ const Experience = () => {
     }, [])
 
     return (
-        <div className="uk-height-large" id="experience">
+        <div className="uk-height-large">
             <ExperienceContainer cards={experienceCards} />
         </div>
     );
